@@ -1,0 +1,49 @@
+# Notices for wols
+
+This content is produced and maintained by the wols project.
+
+ * Project home: https://github.com/wols
+
+## Trademarks
+
+Java and all Java-based trademarks are trademarks of Oracle Corporation in
+the United States, other countries, or both.
+
+## Copyright
+
+All content is the property of the respective authors or their employers.
+For more information regarding authorship of content, please consult the
+listed source code repository logs.
+
+## Declared Project Licenses
+
+This program and the accompanying materials are made available under the terms
+of the Eclipse Public License 2.0.
+
+Additional information relating to the program and accompanying materials
+license and usage is available in the LICENSE file in the top level directory 
+of the installation.
+
+SPDX-License-Identifier: EPL-2.0
+
+## Source Code
+
+The project maintains the following source code repositories which may be
+relevant to this content:
+
+ * https://github.com/wols
+
+## Third-party Content
+
+This program and accompanying materials contains third-party content.
+See the THIRD_PARTY_LICENSE file in the top level directory of the 
+installation.
+
+## Cryptography
+
+Content may contain encryption software. The country in which you are currently
+may have restrictions on the import, possession, and use, and/or re-export to
+another country, of encryption software. BEFORE using any encryption software,
+please check the country's laws, regulations and policies concerning the import,
+possession, or use, and re-export of encryption software, to see if this is
+permitted.
