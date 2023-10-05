@@ -4,9 +4,9 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.util.LinkedHashMap;
 
-import net.altkey12.wols.Wols;
-import net.altkey12.wols.net.RequestsImpl;
-import net.altkey12.wols.net.RequestsStub;
+import gyk4j.wols.Wols;
+import gyk4j.wols.net.RequestsImpl;
+import gyk4j.wols.net.RequestsStub;
 
 public interface Requests {
 	public static class codes {

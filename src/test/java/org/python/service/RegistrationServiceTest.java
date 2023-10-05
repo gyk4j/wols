@@ -18,7 +18,7 @@ import org.python.net.ValidateOtpResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import net.altkey12.wols.net.RequestsStub;
+import gyk4j.wols.net.RequestsStub;
 
 public class RegistrationServiceTest {
 	

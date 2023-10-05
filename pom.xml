@@ -67,7 +67,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>net.altkey12.wols.Wols</mainClass>
+							<mainClass>gyk4j.wols.Wols</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

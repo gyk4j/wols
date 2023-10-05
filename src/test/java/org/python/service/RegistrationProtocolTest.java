@@ -29,7 +29,7 @@ public class RegistrationProtocolTest {
 			successCode = RegistrationService.requestRegistration(
 					"starhub", 						// isp 
 					"Mr",							// salutation 
-					"Lee Kuan Yew",					// name 
+					"Lee Min Ho",					// name 
 					"m",							// gender 
 					"09081965", 					// dob
 					"91234567", 					// phone
