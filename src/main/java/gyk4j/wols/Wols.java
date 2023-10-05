@@ -25,7 +25,7 @@ public final class Wols {
 	public static final String SSID_TEST = "test-Wireless@SGx";
 	public static final String SSID_PROD = "Wireless@SGx";
 	// TODO: Need to update SSID to either TEST or PROD
-	public static final String SSID = SSID_TEST;
+	public static final String SSID = SSID_PROD;
 	
 	private static Wols INSTANCE;
 
