@@ -1,3 +1,7 @@
+[![Java CI with Maven](https://github.com/gyk4j/wols/actions/workflows/maven.yml/badge.svg)](https://github.com/gyk4j/wols/actions/workflows/maven.yml)
+
+# Wireless@SG On Linux Systems (WOLS)
+
 **WOLS** is an acronym for **W**ireless@SG **O**n **L**inux **S**ystem (WOLS) to assist users in
 creating the required 802.11x wireless connection profile to connect to the free
 nationwide public hotspot network 
