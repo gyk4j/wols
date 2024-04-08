@@ -125,6 +125,65 @@
 					</execution>
 				</executions>
 			</plugin>
+			
+			<!-- Proguard
+			<plugin>
+				<groupId>com.github.wvengen</groupId>
+				<artifactId>proguard-maven-plugin</artifactId>
+				<version>2.6.0</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>proguard</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<injar>${project.build.finalName}-jar-with-dependencies.jar</injar>
+					<outjar>${project.build.finalName}.jar</outjar>
+					<includeDependency>false</includeDependency>
+					<options>
+						<option>-dontwarn org.apache.commons.logging.impl.**</option>
+						<option>-dontwarn org.apache.log4j.**</option>
+						<option>-dontnote org.bouncycastle.**</option>
+						<option>-dontnote org.apache.commons.logging.impl.**</option>
+						<option>-dontnote org.apache.log4j.**</option>
+						<option>-dontnote net.sourceforge.argparse4j.**</option>
+						<option>-dontnote org.json.**</option>
+						<option>-dontnote org.slf4j.**</option>
+						<option>-keepclasseswithmembers public class * { public static
+							void main(java.lang.String[]); }</option>
+						<option>-keep class org.apache.commons.logging.** { *; }</option>
+						<option>-keep class org.apache.log4j.** { *; }</option>
+						<option>-keep class org.slf4j.** { *; }</option>
+						<option>-keep class org.bouncycastle.jcajce.provider.** { *; }</option>
+						<option>-keep class org.bouncycastle.jce.provider.** { *; }</option>
+						<option>-keep class net.sourceforge.argparse4j.internal.** { *; }</option>
+					</options>
+					<libs>
+						<lib>${java.home}/lib/rt.jar</lib>
+						<lib>${java.home}/lib/jsse.jar</lib>
+						<lib>${java.home}/lib/jce.jar</lib>
+						<lib>${java.home}/lib/ext/sunjce_provider.jar</lib>
+					</libs>
+					<assembly> <inclusions> <inclusion> <groupId>net.sourceforge.argparse4j</groupId> 
+						<artifactId>argparse4j</artifactId> <library>true</library> </inclusion> 
+						<inclusion> <groupId>commons-cli</groupId> <artifactId>commons-cli</artifactId> 
+						<library>true</library> </inclusion> <inclusion> <groupId>org.jxmapviewer</groupId> 
+						<artifactId>jxmapviewer2</artifactId> <library>true</library> </inclusion> 
+						<inclusion> <groupId>commons-logging</groupId> <artifactId>commons-logging</artifactId> 
+						<library>true</library> </inclusion> <inclusion> <groupId>org.json</groupId> 
+						<artifactId>json</artifactId> <library>true</library> </inclusion> <inclusion> 
+						<groupId>org.bouncycastle</groupId> <artifactId>bcprov-jdk18on</artifactId> 
+						<library>true</library> </inclusion> <inclusion> <groupId>org.slf4j</groupId> 
+						<artifactId>slf4j-api</artifactId> <library>true</library> </inclusion> <inclusion> 
+						<groupId>org.slf4j</groupId> <artifactId>slf4j-simple</artifactId> <library>true</library> 
+						</inclusion> </inclusions> </assembly> <exclusions> <exclusion> </exclusion> 
+						</exclusions>
+				</configuration>
+			</plugin>
+			-->
 		</plugins>
 	</build>
 
